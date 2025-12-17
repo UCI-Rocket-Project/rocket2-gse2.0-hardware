@@ -1,0 +1,3 @@
+[submodule "UCIRP-KiCAD-Lib"]
+	path = UCIRP-KiCAD-Lib
+	url = https://github.com/UCI-Rocket-Project/UCIRP-KiCAD-Lib.git
