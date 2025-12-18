@@ -720,11 +720,27 @@
     ],
     [
       "35a9b011-2c33-41b2-9de4-3159b5f57394",
-      "LoadCell1"
+      "LoadCell0"
     ],
     [
       "baf95957-6e2e-4ec4-89f5-09a92f2c8dee",
-      "LoadCell2"
+      "LoadCell1"
+    ],
+    [
+      "5559a045-5274-46dd-a9f7-6c77421fac55",
+      "4-20-Ext0"
+    ],
+    [
+      "0687fe40-329e-4703-aa4e-79ae5f0a2b2c",
+      "4-20-Ext1"
+    ],
+    [
+      "6bd5ce7b-5421-47cf-bc9b-c42bad7e7867",
+      "4-20-Ext2"
+    ],
+    [
+      "40a62b2c-89de-4218-bc92-3160258cee7b",
+      "4-20-Ext3"
     ]
   ],
   "text_variables": {}

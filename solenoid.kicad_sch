@@ -3100,7 +3100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:GX-16 3 pin"
 			(at 109.22 83.82 0)
 			(effects
 				(font
