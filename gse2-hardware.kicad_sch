@@ -7112,7 +7112,7 @@
 	)
 	(text "LDO for ripple rejection (useful for PTs)"
 		(exclude_from_sim no)
-		(at 176.53 235.204 0)
+		(at 177.8 241.554 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7191,7 +7191,7 @@
 		(uuid "12083602-52a3-47d5-b6ee-945d6b1da491")
 	)
 	(junction
-		(at 166.37 217.17)
+		(at 167.64 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16c9a6f2-8655-4e6d-bb7a-3c11ac17c8cb")
@@ -7245,7 +7245,7 @@
 		(uuid "2dfa1695-98d7-4e84-9e67-09beccd67582")
 	)
 	(junction
-		(at 156.21 228.6)
+		(at 157.48 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31ac525e-b0e3-4b0d-a37b-767f93444021")
@@ -7299,7 +7299,7 @@
 		(uuid "4c819faa-d476-4c22-a6db-75e46fac6499")
 	)
 	(junction
-		(at 195.58 227.33)
+		(at 196.85 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70e7b3b9-df70-4b43-87b8-86f040bbf726")
@@ -7347,7 +7347,7 @@
 		(uuid "b3367571-1116-4363-afe5-198897f268a4")
 	)
 	(junction
-		(at 205.74 215.9)
+		(at 207.01 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3641f20-5d4c-4a1d-b60e-c4556ddcce36")
@@ -7407,7 +7407,7 @@
 		(uuid "d9f852f3-e159-4d43-8131-117f04885760")
 	)
 	(junction
-		(at 185.42 215.9)
+		(at 186.69 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de92d962-70bd-4ad1-b4c2-4fd2d7201b19")
@@ -7425,10 +7425,16 @@
 		(uuid "e3c327d2-ed7f-4cbb-9da1-64b9b17efa73")
 	)
 	(junction
-		(at 146.05 217.17)
+		(at 147.32 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1509af2-f727-46ff-8ecd-6a27954e6da3")
+	)
+	(junction
+		(at 182.88 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5c4f851-8085-4c04-8695-f61715f258ec")
 	)
 	(junction
 		(at 74.93 38.1)
@@ -7954,7 +7960,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 215.9) (xy 185.42 215.9)
+			(xy 184.15 222.25) (xy 186.69 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7964,7 +7970,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 228.6) (xy 156.21 228.6)
+			(xy 147.32 234.95) (xy 157.48 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8034,7 +8040,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 222.25) (xy 146.05 228.6)
+			(xy 147.32 228.6) (xy 147.32 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8514,6 +8520,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 204.47) (xy 181.61 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb91790-fc38-4b46-a714-89415deb93f6")
+	)
+	(wire
+		(pts
 			(xy 31.75 162.56) (xy 52.07 162.56)
 		)
 		(stroke
@@ -8564,7 +8580,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 227.33) (xy 195.58 227.33)
+			(xy 186.69 233.68) (xy 196.85 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8714,7 +8730,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 227.33) (xy 205.74 220.98)
+			(xy 207.01 233.68) (xy 207.01 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8864,7 +8880,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 227.33) (xy 205.74 227.33)
+			(xy 196.85 233.68) (xy 207.01 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8874,7 +8890,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 215.9) (xy 205.74 215.9)
+			(xy 209.55 222.25) (xy 207.01 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8884,7 +8900,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 220.98) (xy 185.42 227.33)
+			(xy 186.69 227.33) (xy 186.69 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8911,6 +8927,16 @@
 			(type default)
 		)
 		(uuid "ae1c72f6-f8d7-42df-96ee-91c4710d2d54")
+	)
+	(wire
+		(pts
+			(xy 182.88 204.47) (xy 191.77 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae87ac98-7850-40e5-9f7b-64674973e01e")
 	)
 	(wire
 		(pts
@@ -9064,7 +9090,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 228.6) (xy 166.37 228.6)
+			(xy 157.48 234.95) (xy 167.64 234.95)
 		)
 		(stroke
 			(width 0)
@@ -9334,7 +9360,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 217.17) (xy 146.05 217.17)
+			(xy 144.78 223.52) (xy 147.32 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9384,7 +9410,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 217.17) (xy 168.91 217.17)
+			(xy 167.64 223.52) (xy 170.18 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9454,7 +9480,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 228.6) (xy 166.37 222.25)
+			(xy 167.64 234.95) (xy 167.64 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9501,6 +9527,16 @@
 			(type default)
 		)
 		(uuid "f1b60715-f2eb-4592-923c-e8b927ccd68b")
+	)
+	(wire
+		(pts
+			(xy 176.53 204.47) (xy 170.18 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3345efb-5494-49fc-9ae4-a079ceb350a7")
 	)
 	(wire
 		(pts
@@ -12445,7 +12481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 227.33 0)
+		(at 196.85 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12453,7 +12489,7 @@
 		(dnp no)
 		(uuid "0a03adca-c242-4078-b418-46b4ee0a7516")
 		(property "Reference" "#PWR0246"
-			(at 195.58 233.68 0)
+			(at 196.85 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12462,7 +12498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 231.14 0)
+			(at 196.85 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12470,7 +12506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 227.33 0)
+			(at 196.85 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12479,7 +12515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 227.33 0)
+			(at 196.85 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12488,7 +12524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 227.33 0)
+			(at 196.85 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13487,70 +13523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 182.88 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d26157c-cacb-4c46-8998-21484a227761")
-		(property "Reference" "#PWR0245"
-			(at 182.88 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 182.88 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5cb9eea2-e050-46d7-be14-98a6b4c2a189")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(reference "#PWR0245")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 99.06 0)
 		(unit 1)
@@ -14017,6 +13989,70 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 144.78 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23e9d5c8-1e15-42f9-aaee-3f364c2ed408")
+		(property "Reference" "#PWR0238"
+			(at 144.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_CLEAN"
+			(at 144.78 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c245496d-2595-4263-a469-9eaf555acf78")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -15079,7 +15115,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 168.91 217.17 0)
+		(at 170.18 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15087,7 +15123,7 @@
 		(dnp no)
 		(uuid "4b94dd87-ace4-4e59-89b3-713d96f059b9")
 		(property "Reference" "#PWR0240"
-			(at 168.91 220.98 0)
+			(at 170.18 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15096,7 +15132,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 168.91 213.36 0)
+			(at 170.18 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15104,7 +15140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 217.17 0)
+			(at 170.18 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15113,7 +15149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 217.17 0)
+			(at 170.18 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,7 +15158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 217.17 0)
+			(at 170.18 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15143,7 +15179,7 @@
 	)
 	(symbol
 		(lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput")
-		(at 156.21 219.71 0)
+		(at 157.48 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15151,7 +15187,7 @@
 		(dnp no)
 		(uuid "4ecc8672-eb4a-4f4e-9ebd-6fa92d63f652")
 		(property "Reference" "U26"
-			(at 156.21 213.36 0)
+			(at 157.48 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15159,7 +15195,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 156.21 212.09 0)
+			(at 157.48 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15167,7 +15203,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 156.21 212.09 0)
+			(at 157.48 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15176,7 +15212,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/UA78M10CKVURG3/1000276"
-			(at 156.21 212.09 0)
+			(at 157.48 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15185,7 +15221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 219.71 0)
+			(at 157.48 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15193,7 +15229,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 156.21 219.71 0)
+			(at 157.48 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15202,7 +15238,7 @@
 			)
 		)
 		(property "Part #" "~"
-			(at 156.21 219.71 0)
+			(at 157.48 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15703,7 +15739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 228.6 0)
+		(at 157.48 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15711,7 +15747,7 @@
 		(dnp no)
 		(uuid "5513ac10-05bf-4a25-aa13-7c223d89a4a8")
 		(property "Reference" "#PWR0237"
-			(at 156.21 234.95 0)
+			(at 157.48 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15720,7 +15756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 232.41 0)
+			(at 157.48 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +15764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 228.6 0)
+			(at 157.48 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +15773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 228.6 0)
+			(at 157.48 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +15782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 228.6 0)
+			(at 157.48 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15760,6 +15796,90 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(reference "#PWR0237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 179.07 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55fc8ea0-2636-4175-a743-a6e64e714951")
+		(property "Reference" "L4"
+			(at 179.07 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200 nH"
+			(at 179.07 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm"
+			(at 179.07 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 179.07 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 179.07 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0345f4d8-bf3e-4876-b4d0-b0d1b8390287")
+		)
+		(pin "2"
+			(uuid "e518a049-bbf2-4983-8314-5fef99c4036c")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -15852,7 +15972,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 219.71 0)
+		(at 167.64 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15860,7 +15980,7 @@
 		(dnp no)
 		(uuid "5db2ebd2-4d8f-4472-bebd-0f38620513e3")
 		(property "Reference" "C46"
-			(at 169.164 219.71 0)
+			(at 170.434 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15869,7 +15989,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 169.164 222.25 0)
+			(at 170.434 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +15998,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 166.37 219.71 0)
+			(at 167.64 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +16007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 219.71 0)
+			(at 167.64 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +16016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 219.71 0)
+			(at 167.64 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15904,7 +16024,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 166.37 219.71 0)
+			(at 167.64 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15913,7 +16033,7 @@
 			)
 		)
 		(property "Part #" "Generic 22uF 35V X5R 1206 MLCC"
-			(at 166.37 219.71 0)
+			(at 167.64 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16317,7 +16437,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 208.28 215.9 0)
+		(at 209.55 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16325,7 +16445,7 @@
 		(dnp no)
 		(uuid "6d8cbdb8-daed-4c00-81cc-0824cb7b8136")
 		(property "Reference" "#PWR0247"
-			(at 208.28 219.71 0)
+			(at 209.55 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +16454,7 @@
 			)
 		)
 		(property "Value" "+20V"
-			(at 208.28 212.09 0)
+			(at 209.55 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16342,7 +16462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 215.9 0)
+			(at 209.55 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,7 +16471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 215.9 0)
+			(at 209.55 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16360,7 +16480,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 215.9 0)
+			(at 209.55 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16556,7 +16676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal"
 			(at 382.27 26.67 0)
 			(effects
 				(font
@@ -17176,7 +17296,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 146.05 219.71 180)
+		(at 147.32 226.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17184,7 +17304,7 @@
 		(dnp no)
 		(uuid "7ba4b050-b7e7-4a44-9fc7-830ca8f12eda")
 		(property "Reference" "C45"
-			(at 143.256 222.758 0)
+			(at 144.526 229.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17193,7 +17313,7 @@
 			)
 		)
 		(property "Value" "0.33uF"
-			(at 143.256 220.218 0)
+			(at 144.526 226.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17202,7 +17322,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 146.05 219.71 0)
+			(at 147.32 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 219.71 0)
+			(at 147.32 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17220,7 +17340,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 219.71 0)
+			(at 147.32 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17228,7 +17348,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 146.05 219.71 0)
+			(at 147.32 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17237,7 +17357,7 @@
 			)
 		)
 		(property "Part #" "Generic 22uF 35V X5R 1206 MLCC"
-			(at 146.05 219.71 0)
+			(at 147.32 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18611,6 +18731,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 184.15 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e78d2e5-949e-4021-849c-88d0a1d0e609")
+		(property "Reference" "#PWR0245"
+			(at 184.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_CLEAN"
+			(at 184.15 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ac33b2e-554e-4cf3-8558-3d387876362d")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 231.14 34.29 90)
 		(unit 1)
@@ -18762,7 +18946,7 @@
 	)
 	(symbol
 		(lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput")
-		(at 195.58 218.44 0)
+		(at 196.85 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18770,7 +18954,7 @@
 		(dnp no)
 		(uuid "a17c3c0b-0ef3-45d8-8952-f04e13e7af67")
 		(property "Reference" "U30"
-			(at 195.58 212.09 0)
+			(at 196.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18778,7 +18962,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 195.58 210.82 0)
+			(at 196.85 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18786,7 +18970,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 195.58 210.82 0)
+			(at 196.85 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18795,7 +18979,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/rohm-semiconductor/BA78M20FP-E2/2357141"
-			(at 195.58 210.82 0)
+			(at 196.85 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18804,7 +18988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 218.44 0)
+			(at 196.85 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18812,7 +18996,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 195.58 218.44 0)
+			(at 196.85 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18821,7 +19005,7 @@
 			)
 		)
 		(property "Part #" "~"
-			(at 195.58 218.44 0)
+			(at 196.85 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19126,70 +19310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 143.51 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0b00e39-b504-40d9-9898-3933d80d142f")
-		(property "Reference" "#PWR0238"
-			(at 143.51 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 143.51 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e88447f-994c-44d2-b7e8-378f2450a30a")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 29.21 54.61 0)
 		(unit 1)
@@ -19270,6 +19390,70 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3bc8338-300b-472b-baa7-a653697eea1c")
+		(property "Reference" "#PWR0290"
+			(at 182.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "488b1984-46d2-401f-8978-a87ab561d8ee")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "#PWR0290")
 					(unit 1)
 				)
 			)
@@ -19513,34 +19697,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 185.42 218.44 180)
+		(lib_id "power:+24V")
+		(at 191.77 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b61871b2-6ba3-443a-936e-590328b2416b")
-		(property "Reference" "C47"
-			(at 182.626 221.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.33uF"
-			(at 182.626 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 185.42 218.44 0)
+		(uuid "b5fc4004-21d6-446d-a0a0-42511a98b635")
+		(property "Reference" "#PWR0289"
+			(at 191.77 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19548,8 +19714,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 185.42 218.44 0)
+		(property "Value" "+24V_CLEAN"
+			(at 191.77 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19558,7 +19741,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 218.44 0)
+			(at 191.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a366748-97ac-420c-8a5e-bbf36741d411")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "#PWR0289")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 224.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b61871b2-6ba3-443a-936e-590328b2416b")
+		(property "Reference" "C47"
+			(at 183.896 227.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.33uF"
+			(at 183.896 225.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 186.69 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19566,7 +19814,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 185.42 218.44 0)
+			(at 186.69 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19575,7 +19823,7 @@
 			)
 		)
 		(property "Part #" "Generic 22uF 35V X5R 1206 MLCC"
-			(at 185.42 218.44 0)
+			(at 186.69 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19750,6 +19998,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 170.18 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfbb205e-8a4e-490a-9eb2-d5fe122f3820")
+		(property "Reference" "#PWR0288"
+			(at 170.18 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "169a0d7f-634b-4ee1-a7ff-758a9869d6ef")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "#PWR0288")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 52.07 167.64 180)
 		(unit 1)
@@ -19902,7 +20214,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 205.74 218.44 0)
+		(at 207.01 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19910,7 +20222,7 @@
 		(dnp no)
 		(uuid "c6b4f94a-f299-41e3-8315-db7906000217")
 		(property "Reference" "C48"
-			(at 208.534 218.44 0)
+			(at 209.804 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19919,7 +20231,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 208.534 220.98 0)
+			(at 209.804 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19928,7 +20240,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 205.74 218.44 0)
+			(at 207.01 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19937,7 +20249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 218.44 0)
+			(at 207.01 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19946,7 +20258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 218.44 0)
+			(at 207.01 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19954,7 +20266,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 205.74 218.44 0)
+			(at 207.01 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19963,7 +20275,7 @@
 			)
 		)
 		(property "Part #" "Generic 22uF 35V X5R 1206 MLCC"
-			(at 205.74 218.44 0)
+			(at 207.01 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20960,6 +21272,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da44730c-600a-4cd0-a22b-c76a245fe27f")
+		(property "Reference" "C60"
+			(at 185.42 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50uF"
+			(at 185.42 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 182.88 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 182.88 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 100uF 6.3V X5R 1206 MLCC"
+			(at 182.88 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7ec8c98-8a4d-4d4f-be87-8ef4f0b1d099")
+		)
+		(pin "2"
+			(uuid "2b4166bb-4384-4de1-b988-a50cdb804e0f")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 66.04 167.64 180)
 		(unit 1)
@@ -21350,7 +21748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal"
 			(at 231.14 137.16 0)
 			(effects
 				(font
@@ -22286,7 +22684,69 @@
 		)
 	)
 	(sheet
-		(at 110.49 246.38)
+		(at 270.51 72.39)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03932ad1-129b-4688-9d97-fd8248728dfb")
+		(property "Sheetname" "Solenoid1"
+			(at 270.51 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid.kicad_sch"
+			(at 270.51 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 270.51 74.93 180)
+			(uuid "8e5028ce-21ed-4ed7-8d96-ba009d5ae29a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FB" output
+			(at 283.21 80.01 0)
+			(uuid "64fb8ae2-c30f-4a12-906c-f88399e5c407")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 265.43)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22300,9 +22760,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "02e059de-e4c2-422c-900c-b6e1a68a1cef")
-		(property "Sheetname" "PT3"
-			(at 110.49 245.6684 0)
+		(uuid "080ef17d-44b6-48a5-becc-c956f0d3b11f")
+		(property "Sheetname" "PT8"
+			(at 85.09 264.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22311,7 +22771,7 @@
 			)
 		)
 		(property "Sheetfile" "pt.kicad_sch"
-			(at 110.49 259.6646 0)
+			(at 85.09 278.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22320,8 +22780,8 @@
 			)
 		)
 		(pin "OUT" output
-			(at 123.19 252.73 0)
-			(uuid "fff365ec-601d-4fda-bdf3-e1bd7bcba715")
+			(at 97.79 271.78 0)
+			(uuid "aa39a0e8-b280-4d6f-a445-60092018269b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22332,59 +22792,7 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "19")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 254 203.2)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0687fe40-329e-4703-aa4e-79ae5f0a2b2c")
-		(property "Sheetname" "4-20-Ext1"
-			(at 254 202.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "420ext.kicad_sch"
-			(at 254 216.4846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 266.7 209.55 0)
-			(uuid "13ced6a9-b55b-4cbc-aa81-8cd3c5c0947b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "31")
+					(page "24")
 				)
 			)
 		)
@@ -22586,7 +22994,7 @@
 		)
 	)
 	(sheet
-		(at 270.51 72.39)
+		(at 238.76 90.17)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22600,9 +23008,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1630c9d4-163b-493a-93ef-131d20a3f7c3")
-		(property "Sheetname" "Solenoid1"
-			(at 270.51 71.6784 0)
+		(uuid "286b6f9d-06b9-4eca-96aa-fac563af00a8")
+		(property "Sheetname" "Solenoid3"
+			(at 238.76 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22611,7 +23019,7 @@
 			)
 		)
 		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 270.51 83.1346 0)
+			(at 238.76 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22620,8 +23028,8 @@
 			)
 		)
 		(pin "EN" input
-			(at 270.51 74.93 180)
-			(uuid "6141bf6f-c051-485a-9fcd-effb0b8bf8b5")
+			(at 238.76 92.71 180)
+			(uuid "9b3f60de-3904-4b4f-a302-77785e861490")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22630,8 +23038,8 @@
 			)
 		)
 		(pin "FB" output
-			(at 283.21 80.01 0)
-			(uuid "df811195-dd18-4c6d-beb3-2462460e1fa8")
+			(at 251.46 97.79 0)
+			(uuid "5d9d1b95-a0c5-4911-9701-756587763ace")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22642,183 +23050,7 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 238.76 107.95)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "30f5992e-b385-4cef-8bc4-956e91ae63dc")
-		(property "Sheetname" "Solenoid6"
-			(at 238.76 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 238.76 118.6946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 238.76 110.49 180)
-			(uuid "f08b27b6-61bc-4f72-a398-2b17d07e476b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FB" output
-			(at 251.46 115.57 0)
-			(uuid "3d4b16da-f549-4b72-a4bc-d2a294c4bae8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 135.89 246.38)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3200bbcd-d3d2-47ba-8e52-35a851b9c158")
-		(property "Sheetname" "PT4"
-			(at 135.89 245.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 135.89 259.6646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 148.59 252.73 0)
-			(uuid "893501c6-65a2-4d71-934c-7b6e02ac6cd3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 270.51 107.95)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3460cf43-e080-449b-8ccd-4912ea43e198")
-		(property "Sheetname" "Solenoid7"
-			(at 270.51 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 270.51 118.6946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 270.51 110.49 180)
-			(uuid "c2160124-07d1-4aec-a57d-5acfc8093367")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FB" output
-			(at 283.21 115.57 0)
-			(uuid "27919b40-60ba-4a4f-9def-c90e7236fec6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "9")
+					(page "5")
 				)
 			)
 		)
@@ -22968,68 +23200,6 @@
 		)
 	)
 	(sheet
-		(at 238.76 90.17)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3d339a8a-4971-4a55-883d-cf4514303bb8")
-		(property "Sheetname" "Solenoid3"
-			(at 238.76 89.4584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 238.76 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 238.76 92.71 180)
-			(uuid "0e19fdd6-c31d-46fa-9e5e-d30efc7d0352")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FB" output
-			(at 251.46 97.79 0)
-			(uuid "60171490-4feb-4332-a8fc-354256ec9068")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 304.8 203.2)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
@@ -23044,7 +23214,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "40a62b2c-89de-4218-bc92-3160258cee7b")
+		(uuid "36c8029a-878f-46f9-8d6f-25cd406a913c")
 		(property "Sheetname" "4-20-Ext3"
 			(at 304.8 202.4884 0)
 			(effects
@@ -23065,7 +23235,7 @@
 		)
 		(pin "OUT" output
 			(at 317.5 209.55 0)
-			(uuid "a52d0f6d-e63c-4528-b7f4-15b484f12e21")
+			(uuid "4211f30c-86d4-4058-b9b2-99046ee03b28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23077,6 +23247,120 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 246.38)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a1ca63f-f82f-4b0b-969f-686d8e871d34")
+		(property "Sheetname" "PT2"
+			(at 85.09 245.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt.kicad_sch"
+			(at 85.09 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 97.79 252.73 0)
+			(uuid "e94e77f6-3350-46f0-8d80-4b2c40e01c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 107.95)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c07b789-4554-4158-a611-d22d74095257")
+		(property "Sheetname" "Solenoid8"
+			(at 302.26 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid.kicad_sch"
+			(at 302.26 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 302.26 110.49 180)
+			(uuid "52ea299e-b077-4804-b4df-bc3fc719b1b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FB" output
+			(at 314.96 115.57 0)
+			(uuid "3e6aa08b-298d-418c-889f-c1809d9ac8a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "10")
 				)
 			)
 		)
@@ -23144,8 +23428,8 @@
 		)
 	)
 	(sheet
-		(at 59.69 265.43)
-		(size 12.7 12.7)
+		(at 270.51 107.95)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23158,9 +23442,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "4ec616b9-460d-4947-9756-36baf033658a")
-		(property "Sheetname" "PT7"
-			(at 59.69 264.7184 0)
+		(uuid "4a437018-65cd-45b6-9348-2044032dd86a")
+		(property "Sheetname" "Solenoid7"
+			(at 270.51 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23168,8 +23452,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 59.69 278.7146 0)
+		(property "Sheetfile" "solenoid.kicad_sch"
+			(at 270.51 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23177,9 +23461,19 @@
 				(justify left top)
 			)
 		)
-		(pin "OUT" output
-			(at 72.39 271.78 0)
-			(uuid "c144bd75-c187-4bcb-b019-d786d9dbae91")
+		(pin "EN" input
+			(at 270.51 110.49 180)
+			(uuid "fc6c6d5e-f504-4da3-b4c9-365f6d092268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FB" output
+			(at 283.21 115.57 0)
+			(uuid "da25865c-f424-4a81-8dc7-db0e7cd7b663")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23190,7 +23484,7 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "23")
+					(page "9")
 				)
 			)
 		)
@@ -23243,6 +23537,68 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 270.51 90.17)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62945beb-192a-4537-9ce7-3a53d30b8410")
+		(property "Sheetname" "Solenoid4"
+			(at 270.51 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid.kicad_sch"
+			(at 270.51 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 270.51 92.71 180)
+			(uuid "01a679fd-b35d-423f-8e8c-3ec4aa76c6cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FB" output
+			(at 283.21 97.79 0)
+			(uuid "63e46b91-28c6-438c-a54c-3e32a3d588d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "6")
 				)
 			)
 		)
@@ -23320,390 +23676,6 @@
 		)
 	)
 	(sheet
-		(at 279.4 203.2)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6bd5ce7b-5421-47cf-bc9b-c42bad7e7867")
-		(property "Sheetname" "4-20-Ext2"
-			(at 279.4 202.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "420ext.kicad_sch"
-			(at 279.4 216.4846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 292.1 209.55 0)
-			(uuid "e30b7260-40b7-46a1-99f3-4f37b1bfd246")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "32")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 110.49 265.43)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7260996a-bc37-44be-b31f-8b994cb80710")
-		(property "Sheetname" "PT9"
-			(at 110.49 264.7184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 110.49 278.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 123.19 271.78 0)
-			(uuid "3017bf5e-9225-4ffd-98b1-d6d81eec60e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "25")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 302.26 90.17)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8a754b07-4d0f-4880-be89-e3f073114e5d")
-		(property "Sheetname" "Solenoid5"
-			(at 302.26 89.4584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 302.26 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 302.26 92.71 180)
-			(uuid "e748b7b1-ddd6-496c-b0b8-c5609f1c2d26")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FB" output
-			(at 314.96 97.79 0)
-			(uuid "78327d56-f7de-439d-8e90-ffb40a9a1baf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 85.09 246.38)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "965af23d-0aec-4589-8dbb-5112cdd2212a")
-		(property "Sheetname" "PT2"
-			(at 85.09 245.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 85.09 259.6646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 97.79 252.73 0)
-			(uuid "7b8a24dd-efd5-4bf2-8a4c-6902c6c437e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "18")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 302.26 72.39)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9fc82111-219a-45cd-90de-f1b4212336be")
-		(property "Sheetname" "Solenoid2"
-			(at 302.26 71.6784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 302.26 83.1346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 302.26 74.93 180)
-			(uuid "96ec7992-db31-4641-b782-2ff46a055aac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FB" output
-			(at 314.96 80.01 0)
-			(uuid "5ad98d53-e6c3-461e-a2e7-7436da72f3af")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 34.29 265.43)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a0571403-1a58-4642-ab50-570ab268f980")
-		(property "Sheetname" "PT6"
-			(at 34.29 264.7184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 34.29 278.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 46.99 271.78 0)
-			(uuid "8e1e15c1-d146-4580-9ef0-0281a394942c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 59.69 246.38)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "aba18e39-b7df-405d-84e3-710790cf90b2")
-		(property "Sheetname" "PT1"
-			(at 59.69 245.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 59.69 259.6646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 72.39 252.73 0)
-			(uuid "fa5f4093-07c4-413e-8630-558f529c8668")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 135.89 265.43)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
@@ -23718,7 +23690,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b6502f1e-1111-4217-9e07-646978ab853f")
+		(uuid "7562866f-379c-4e40-8214-10fa496db888")
 		(property "Sheetname" "PT10"
 			(at 135.89 264.7184 0)
 			(effects
@@ -23739,7 +23711,7 @@
 		)
 		(pin "OUT" output
 			(at 148.59 271.78 0)
-			(uuid "7758ebaf-ff17-4188-8dbe-9f2513996f1a")
+			(uuid "9567dba6-d5aa-4e83-b36b-6de33fa63420")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23751,6 +23723,234 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 107.95)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a44b462-584f-4ea8-be91-d4caf81deda4")
+		(property "Sheetname" "Solenoid6"
+			(at 238.76 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid.kicad_sch"
+			(at 238.76 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 238.76 110.49 180)
+			(uuid "80dd409a-d5fa-4530-b2aa-74a417d51d2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FB" output
+			(at 251.46 115.57 0)
+			(uuid "4ad554e6-f2c6-43fd-8d1b-aea3bbb77290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 246.38)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90511ce4-e980-4cde-b5eb-16766304f657")
+		(property "Sheetname" "PT4"
+			(at 135.89 245.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt.kicad_sch"
+			(at 135.89 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 148.59 252.73 0)
+			(uuid "dbba2aca-2f90-4b3b-80b1-6c8c1a4939dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 90.17)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94c0f81a-efb8-4875-8214-c5f2a6a703c9")
+		(property "Sheetname" "Solenoid5"
+			(at 302.26 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid.kicad_sch"
+			(at 302.26 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 302.26 92.71 180)
+			(uuid "419dd9ba-31e8-49af-899e-d3ec1cedab1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FB" output
+			(at 314.96 97.79 0)
+			(uuid "875ebef4-51d2-4312-a99d-c0d1cb8bf042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 246.38)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "964f4378-b8db-4e43-9e59-375ac742ee34")
+		(property "Sheetname" "PT1"
+			(at 59.69 245.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt.kicad_sch"
+			(at 59.69 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 72.39 252.73 0)
+			(uuid "1d6012ad-7e42-44f8-9e3d-8a6f74a9e7d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "17")
 				)
 			)
 		)
@@ -23770,7 +23970,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b6c55a9e-c8f5-477d-9d59-b860890b164f")
+		(uuid "b677298a-c5d8-49cc-b7d8-b72cad589e13")
 		(property "Sheetname" "PT11"
 			(at 161.29 264.7184 0)
 			(effects
@@ -23791,7 +23991,7 @@
 		)
 		(pin "OUT" output
 			(at 173.99 271.78 0)
-			(uuid "49b6475b-a5b0-4065-8d59-e7fb4bc4902d")
+			(uuid "5b192071-563f-423e-9b4f-5fe4e7bd2afd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23803,6 +24003,110 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 265.43)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7b51096-7614-404e-86c5-52fb81f1ca4f")
+		(property "Sheetname" "PT6"
+			(at 34.29 264.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt.kicad_sch"
+			(at 34.29 278.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 46.99 271.78 0)
+			(uuid "d7d3a705-82ef-4e7e-8d5c-a06dd511fe7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 203.2)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9e77221-eaa0-4bf3-ad88-5995c45b6f4d")
+		(property "Sheetname" "4-20-Ext2"
+			(at 279.4 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "420ext.kicad_sch"
+			(at 279.4 216.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 292.1 209.55 0)
+			(uuid "fa19f37b-fec4-436d-8102-6c41362720a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "32")
 				)
 			)
 		)
@@ -23888,7 +24192,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 265.43)
+		(at 59.69 265.43)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23902,9 +24206,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "c90c2bf4-7640-42dd-9697-bc01b4edd406")
-		(property "Sheetname" "PT8"
-			(at 85.09 264.7184 0)
+		(uuid "c5c3a376-27d4-40b8-92ef-c37a3c2b1985")
+		(property "Sheetname" "PT7"
+			(at 59.69 264.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23913,7 +24217,7 @@
 			)
 		)
 		(property "Sheetfile" "pt.kicad_sch"
-			(at 85.09 278.7146 0)
+			(at 59.69 278.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23922,8 +24226,8 @@
 			)
 		)
 		(pin "OUT" output
-			(at 97.79 271.78 0)
-			(uuid "dc147329-5b9f-488e-a2f3-288f39137b74")
+			(at 72.39 271.78 0)
+			(uuid "e1784ce9-8147-4e91-8046-6cf0982c50af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23934,13 +24238,169 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "24")
+					(page "23")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 302.26 107.95)
+		(at 110.49 265.43)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d31aeae5-8d9f-402f-b6d1-5e5b38396224")
+		(property "Sheetname" "PT9"
+			(at 110.49 264.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt.kicad_sch"
+			(at 110.49 278.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 123.19 271.78 0)
+			(uuid "f4c23ea9-0921-4445-ab47-bb4a946f8a1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 246.38)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d48db677-5ff5-4889-96a4-25d5500c3d30")
+		(property "Sheetname" "PT3"
+			(at 110.49 245.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt.kicad_sch"
+			(at 110.49 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 123.19 252.73 0)
+			(uuid "54dd3efa-a228-455b-9ac6-f1214a02d776")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 246.38)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d931e59d-22f9-4efc-a23a-71af672978d6")
+		(property "Sheetname" "PT5"
+			(at 161.29 245.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt.kicad_sch"
+			(at 161.29 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 173.99 252.73 0)
+			(uuid "ebfb63d9-698e-4e77-b010-f06fd2400604")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 72.39)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23954,9 +24414,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "df046326-1896-48e8-a149-be3d9803fb2e")
-		(property "Sheetname" "Solenoid8"
-			(at 302.26 107.2384 0)
+		(uuid "dedc65d9-5cd8-484a-8156-18d824848e23")
+		(property "Sheetname" "Solenoid2"
+			(at 302.26 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23965,7 +24425,7 @@
 			)
 		)
 		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 302.26 118.6946 0)
+			(at 302.26 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23974,8 +24434,8 @@
 			)
 		)
 		(pin "EN" input
-			(at 302.26 110.49 180)
-			(uuid "8116414f-333b-4b76-87c0-fb74d773da52")
+			(at 302.26 74.93 180)
+			(uuid "52233e41-93b5-4cf2-b837-3db545fabd05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23984,8 +24444,8 @@
 			)
 		)
 		(pin "FB" output
-			(at 314.96 115.57 0)
-			(uuid "0746044b-6402-44c1-af56-0f6ace2e2afa")
+			(at 314.96 80.01 0)
+			(uuid "1e61da69-5d01-4d04-946e-d7039d19bdf4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23996,7 +24456,7 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "10")
+					(page "4")
 				)
 			)
 		)
@@ -24074,69 +24534,7 @@
 		)
 	)
 	(sheet
-		(at 270.51 90.17)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fa7ccc6a-0aea-44fe-8868-b77e0bca25a8")
-		(property "Sheetname" "Solenoid4"
-			(at 270.51 89.4584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "solenoid.kicad_sch"
-			(at 270.51 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 270.51 92.71 180)
-			(uuid "32bd57c6-709b-4648-830b-8caf61d50961")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FB" output
-			(at 283.21 97.79 0)
-			(uuid "4ae466cb-3f29-4722-b954-b287c1ef2e75")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 161.29 246.38)
+		(at 254 203.2)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24150,9 +24548,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fc21df11-c2fa-43dc-9221-f9d397b7875f")
-		(property "Sheetname" "PT5"
-			(at 161.29 245.6684 0)
+		(uuid "f58ffc9d-63e0-47ae-abea-627da656b710")
+		(property "Sheetname" "4-20-Ext1"
+			(at 254 202.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24160,8 +24558,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 161.29 259.6646 0)
+		(property "Sheetfile" "420ext.kicad_sch"
+			(at 254 216.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24170,8 +24568,8 @@
 			)
 		)
 		(pin "OUT" output
-			(at 173.99 252.73 0)
-			(uuid "4bbaac1b-ccb4-44d5-8d7c-e44f3e5ed9af")
+			(at 266.7 209.55 0)
+			(uuid "80eed68d-d075-4618-97c7-fec69f78bedf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24182,7 +24580,7 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(page "21")
+					(page "31")
 				)
 			)
 		)
