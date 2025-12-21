@@ -805,6 +805,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Credit: Alex for desining the Load Cell\ncircuit for the Load Cell 2.0 PCB"
+		(exclude_from_sim no)
+		(at 153.67 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c5620d2-7d39-419c-8623-5dd0eb659cf5")
+	)
 	(junction
 		(at 148.59 121.92)
 		(diameter 0)

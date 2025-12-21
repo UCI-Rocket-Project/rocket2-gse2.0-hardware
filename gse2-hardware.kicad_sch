@@ -7431,12 +7431,6 @@
 		(uuid "f1509af2-f727-46ff-8ecd-6a27954e6da3")
 	)
 	(junction
-		(at 182.88 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5c4f851-8085-4c04-8695-f61715f258ec")
-	)
-	(junction
 		(at 74.93 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8520,16 +8514,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 204.47) (xy 181.61 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb91790-fc38-4b46-a714-89415deb93f6")
-	)
-	(wire
-		(pts
 			(xy 31.75 162.56) (xy 52.07 162.56)
 		)
 		(stroke
@@ -8927,16 +8911,6 @@
 			(type default)
 		)
 		(uuid "ae1c72f6-f8d7-42df-96ee-91c4710d2d54")
-	)
-	(wire
-		(pts
-			(xy 182.88 204.47) (xy 191.77 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae87ac98-7850-40e5-9f7b-64674973e01e")
 	)
 	(wire
 		(pts
@@ -9527,16 +9501,6 @@
 			(type default)
 		)
 		(uuid "f1b60715-f2eb-4592-923c-e8b927ccd68b")
-	)
-	(wire
-		(pts
-			(xy 176.53 204.47) (xy 170.18 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3345efb-5494-49fc-9ae4-a079ceb350a7")
 	)
 	(wire
 		(pts
@@ -15802,90 +15766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 179.07 204.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55fc8ea0-2636-4175-a743-a6e64e714951")
-		(property "Reference" "L4"
-			(at 179.07 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200 nH"
-			(at 179.07 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm"
-			(at 179.07 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 179.07 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
-			(at 179.07 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0345f4d8-bf3e-4876-b4d0-b0d1b8390287")
-		)
-		(pin "2"
-			(uuid "e518a049-bbf2-4983-8314-5fef99c4036c")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 81.28 162.56 0)
 		(unit 1)
@@ -19396,70 +19276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3bc8338-300b-472b-baa7-a653697eea1c")
-		(property "Reference" "#PWR0290"
-			(at 182.88 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "488b1984-46d2-401f-8978-a87ab561d8ee")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(reference "#PWR0290")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 66.04 198.12 180)
 		(unit 1)
@@ -19697,70 +19513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 191.77 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5fc4004-21d6-446d-a0a0-42511a98b635")
-		(property "Reference" "#PWR0289"
-			(at 191.77 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V_CLEAN"
-			(at 191.77 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a366748-97ac-420c-8a5e-bbf36741d411")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(reference "#PWR0289")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 186.69 224.79 180)
 		(unit 1)
@@ -19992,70 +19744,6 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 170.18 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfbb205e-8a4e-490a-9eb2-d5fe122f3820")
-		(property "Reference" "#PWR0288"
-			(at 170.18 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 170.18 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "169a0d7f-634b-4ee1-a7ff-758a9869d6ef")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(reference "#PWR0288")
 					(unit 1)
 				)
 			)
@@ -21266,92 +20954,6 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da44730c-600a-4cd0-a22b-c76a245fe27f")
-		(property "Reference" "C60"
-			(at 185.42 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50uF"
-			(at 185.42 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 182.88 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 182.88 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "Generic 100uF 6.3V X5R 1206 MLCC"
-			(at 182.88 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7ec8c98-8a4d-4d4f-be87-8ef4f0b1d099")
-		)
-		(pin "2"
-			(uuid "2b4166bb-4384-4de1-b988-a50cdb804e0f")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
-					(reference "C60")
 					(unit 1)
 				)
 			)
