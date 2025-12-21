@@ -13976,7 +13976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V_CLEAN"
+		(property "Value" "+24V"
 			(at 144.78 219.71 0)
 			(effects
 				(font
@@ -18628,7 +18628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V_CLEAN"
+		(property "Value" "+24V"
 			(at 184.15 218.44 0)
 			(effects
 				(font
