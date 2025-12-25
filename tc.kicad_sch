@@ -1307,7 +1307,7 @@
 		)
 		(uuid "79315d7a-4420-4fac-b042-f486b0bc2d9a")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "POCI"
 		(shape output)
 		(at 160.02 125.73 0)
 		(effects
