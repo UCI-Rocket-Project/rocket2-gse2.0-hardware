@@ -1205,8 +1205,8 @@
 		(uuid "d5a2e36f-dc02-4bab-998c-6d9882cbefa7")
 	)
 	(no_connect
-		(at 109.22 96.52)
-		(uuid "43b0bedc-95a6-402c-95a3-9e92e0bdfde6")
+		(at 109.22 91.44)
+		(uuid "20b9b173-f16f-4e9c-be55-03d7e6823a06")
 	)
 	(wire
 		(pts
@@ -3189,7 +3189,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 109.22 91.44 270)
+		(at 109.22 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3198,7 +3198,7 @@
 		(fields_autoplaced yes)
 		(uuid "417b3f02-0844-4dd3-960c-2badcaa188ee")
 		(property "Reference" "#PWR0282"
-			(at 105.41 91.44 0)
+			(at 105.41 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3207,7 @@
 			)
 		)
 		(property "Value" "+20V"
-			(at 113.03 91.44 90)
+			(at 113.03 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 91.44 0)
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 91.44 0)
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +3234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 91.44 0)
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,6 +3498,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 104.14 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d3fa77c-1f01-414b-a177-c4a17ad2aee3")
+		(property "Reference" "J18"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "420Sensor"
+			(at 97.282 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0UCIRP-KiCAD-Lib:GX-12 3 pin"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "~"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c96e328e-412e-4316-afda-50530834fc0b")
+		)
+		(pin "2"
+			(uuid "0edf9cb9-c7f8-4141-89fd-119d3fca33fc")
+		)
+		(pin "3"
+			(uuid "9a1731ce-4fb1-486d-9372-3aeb26303b71")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/5559a045-5274-46dd-a9f7-6c77421fac55"
+					(reference "J18")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/b9e77221-eaa0-4bf3-ad88-5995c45b6f4d"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f58ffc9d-63e0-47ae-abea-627da656b710"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 165.1 86.36 0)
 		(unit 1)
@@ -3564,101 +3659,6 @@
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f58ffc9d-63e0-47ae-abea-627da656b710"
 					(reference "#PWR0268")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 104.14 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "887509ad-4910-46d1-a4a3-07fb5179a2ef")
-		(property "Reference" "J35"
-			(at 100.33 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "420Sensor"
-			(at 97.282 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0UCIRP-KiCAD-Lib:GX-12 3 pin"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "~"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "~"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61fadee5-3d11-47dd-b3cf-c0fc7a44f316")
-		)
-		(pin "2"
-			(uuid "57aba093-0d4f-4bb5-b237-2cfe1e636392")
-		)
-		(pin "3"
-			(uuid "6183974c-6eb7-4095-a7ff-799372a8d8b5")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/5559a045-5274-46dd-a9f7-6c77421fac55"
-					(reference "J35")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/b9e77221-eaa0-4bf3-ad88-5995c45b6f4d"
-					(reference "J31")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f58ffc9d-63e0-47ae-abea-627da656b710"
-					(reference "J30")
 					(unit 1)
 				)
 			)

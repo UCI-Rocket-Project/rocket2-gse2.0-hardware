@@ -1083,7 +1083,7 @@
 		(uuid "c3653c27-bc01-4354-9493-822254cbf618")
 	)
 	(no_connect
-		(at 109.22 96.52)
+		(at 109.22 91.44)
 		(uuid "89df3ec4-bb6e-49c7-bca3-cb5c792f39af")
 	)
 	(wire
@@ -2394,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 109.22 91.44 270)
+		(at 109.22 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2403,7 +2403,7 @@
 		(fields_autoplaced yes)
 		(uuid "00c91a46-8700-4d85-965e-31d3f5f08533")
 		(property "Reference" "#PWR0167"
-			(at 105.41 91.44 0)
+			(at 105.41 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2412,7 @@
 			)
 		)
 		(property "Value" "+20V"
-			(at 113.03 91.44 90)
+			(at 113.03 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 91.44 0)
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 91.44 0)
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2439,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 91.44 0)
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,137 +3139,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 104.14 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38ebed42-b15f-43ff-a461-8d733fa477b9")
-		(property "Reference" "J18"
-			(at 100.33 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PT"
-			(at 100.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0UCIRP-KiCAD-Lib:GX-12 3 pin"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "~"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "~"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df2d797a-57c2-4350-b7f9-1f205d6446c9")
-		)
-		(pin "2"
-			(uuid "8a1ed4d8-159e-40b4-97a9-c5083608578f")
-		)
-		(pin "3"
-			(uuid "8b3db889-c51c-48a2-a31c-a4467c78a8b8")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/080ef17d-44b6-48a5-becc-c956f0d3b11f"
-					(reference "J26")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/0c63aa72-2f8c-4349-a8c7-c0452c52d596"
-					(reference "J18")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/3a1ca63f-f82f-4b0b-969f-686d8e871d34"
-					(reference "J20")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/7562866f-379c-4e40-8214-10fa496db888"
-					(reference "J28")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/90511ce4-e980-4cde-b5eb-16766304f657"
-					(reference "J22")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/964f4378-b8db-4e43-9e59-375ac742ee34"
-					(reference "J19")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/b677298a-c5d8-49cc-b7d8-b72cad589e13"
-					(reference "J29")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/b7b51096-7614-404e-86c5-52fb81f1ca4f"
-					(reference "J24")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/c5c3a376-27d4-40b8-92ef-c37a3c2b1985"
-					(reference "J25")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/d31aeae5-8d9f-402f-b6d1-5e5b38396224"
-					(reference "J27")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/d48db677-5ff5-4889-96a4-25d5500c3d30"
-					(reference "J21")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/d931e59d-22f9-4efc-a23a-71af672978d6"
-					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 143.51 99.06 180)
 		(unit 1)
@@ -3736,6 +3605,137 @@
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/d931e59d-22f9-4efc-a23a-71af672978d6"
 					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 104.14 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72a24c97-ace1-42b7-8b10-2dbcc9bdc57e")
+		(property "Reference" "J9"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0UCIRP-KiCAD-Lib:GX-12 3 pin"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "~"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f56f20f-70e0-46d5-9526-aad7cc8678a4")
+		)
+		(pin "2"
+			(uuid "de5164ee-aa2f-4a1f-b0cf-d6239b49c537")
+		)
+		(pin "3"
+			(uuid "4a058e93-520d-4650-b9b4-5fb1d006466c")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/080ef17d-44b6-48a5-becc-c956f0d3b11f"
+					(reference "J26")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/0c63aa72-2f8c-4349-a8c7-c0452c52d596"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/3a1ca63f-f82f-4b0b-969f-686d8e871d34"
+					(reference "J20")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/7562866f-379c-4e40-8214-10fa496db888"
+					(reference "J28")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/90511ce4-e980-4cde-b5eb-16766304f657"
+					(reference "J22")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/964f4378-b8db-4e43-9e59-375ac742ee34"
+					(reference "J19")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/b677298a-c5d8-49cc-b7d8-b72cad589e13"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/b7b51096-7614-404e-86c5-52fb81f1ca4f"
+					(reference "J24")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/c5c3a376-27d4-40b8-92ef-c37a3c2b1985"
+					(reference "J25")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/d31aeae5-8d9f-402f-b6d1-5e5b38396224"
+					(reference "J27")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/d48db677-5ff5-4889-96a4-25d5500c3d30"
+					(reference "J21")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/d931e59d-22f9-4efc-a23a-71af672978d6"
+					(reference "J23")
 					(unit 1)
 				)
 			)
