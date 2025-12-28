@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.5,
+          "height": 4.5,
+          "width": 4.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -748,16 +748,8 @@
       "LoadCell1"
     ],
     [
-      "5559a045-5274-46dd-a9f7-6c77421fac55",
-      "4-20-Ext0"
-    ],
-    [
-      "f58ffc9d-63e0-47ae-abea-627da656b710",
-      "4-20-Ext1"
-    ],
-    [
-      "b9e77221-eaa0-4bf3-ad88-5995c45b6f4d",
-      "4-20-Ext2"
+      "49c9c6d1-c766-4a15-8c23-ec8c2cd74e9d",
+      "Volt-Sense4"
     ],
     [
       "243e7ef2-3d1b-47c4-9f99-7492be586247",
