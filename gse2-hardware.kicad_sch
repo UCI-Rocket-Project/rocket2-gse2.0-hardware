@@ -2554,6 +2554,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_numbers
 				(hide yes)
@@ -6636,12 +6743,6 @@
 		(uuid "00138a09-ec91-4975-a50d-60f3da8d6ae9")
 	)
 	(junction
-		(at 49.53 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "069fa6d9-bbd9-4188-ac13-02918982e71d")
-	)
-	(junction
 		(at 80.01 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6666,12 +6767,6 @@
 		(uuid "12083602-52a3-47d5-b6ee-945d6b1da491")
 	)
 	(junction
-		(at 59.69 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "120e9298-ba9e-4d97-8c96-e3d990d10e7b")
-	)
-	(junction
 		(at 210.82 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6688,6 +6783,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a2337dc-cdb2-4d6b-98ae-15c260b10ffd")
+	)
+	(junction
+		(at 48.26 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a881650-5b9c-4279-a946-95a2675ab017")
 	)
 	(junction
 		(at 29.21 77.47)
@@ -6748,6 +6849,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39f1cb7c-7629-49bd-9d5b-60b2c7c59f54")
+	)
+	(junction
+		(at 48.26 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40599f2f-dc07-437b-a29d-26e4f14bf553")
 	)
 	(junction
 		(at 215.9 29.21)
@@ -6822,6 +6929,12 @@
 		(uuid "9884411d-5764-45c0-91d8-507f08587ccc")
 	)
 	(junction
+		(at 59.69 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae81d3a5-861c-4ee0-aa12-7461e6e9fc49")
+	)
+	(junction
 		(at 146.05 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6876,12 +6989,6 @@
 		(uuid "d0213002-23bf-41af-a676-0fe2e9cb4663")
 	)
 	(junction
-		(at 49.53 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d57428d9-24af-4de0-9864-37b3a10ebdab")
-	)
-	(junction
 		(at 229.87 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6934,12 +7041,20 @@
 		(uuid "30b3f845-632a-494f-8dfc-a38a7dffaa5d")
 	)
 	(no_connect
+		(at 16.51 115.57)
+		(uuid "3451ebb4-7905-43df-afbd-83f62d08ee06")
+	)
+	(no_connect
 		(at 101.6 101.6)
 		(uuid "35609ba4-e46d-493a-892c-6863995b3f60")
 	)
 	(no_connect
 		(at 189.23 53.34)
 		(uuid "3e9e0e55-1dcd-40a3-aa68-fb951a29da95")
+	)
+	(no_connect
+		(at 16.51 143.51)
+		(uuid "430324c5-4815-4df4-a31e-bf4f947d4ec0")
 	)
 	(no_connect
 		(at 189.23 45.72)
@@ -6952,6 +7067,10 @@
 	(no_connect
 		(at 118.11 96.52)
 		(uuid "59fb018f-145c-4963-ac8a-d194ec27e2d0")
+	)
+	(no_connect
+		(at 16.51 130.81)
+		(uuid "5adc2325-f422-471a-a364-ce1db317d720")
 	)
 	(no_connect
 		(at 189.23 39.37)
@@ -6980,6 +7099,10 @@
 	(no_connect
 		(at 189.23 50.8)
 		(uuid "e395c4c2-834f-46ab-849c-62ecb78e8fc6")
+	)
+	(no_connect
+		(at 16.51 101.6)
+		(uuid "ed2f5757-0e37-4f80-abc1-f7aa74e8915b")
 	)
 	(no_connect
 		(at 189.23 80.01)
@@ -7022,16 +7145,6 @@
 			(type default)
 		)
 		(uuid "03d820f4-4ec1-4e6f-a329-81df516b18bd")
-	)
-	(wire
-		(pts
-			(xy 46.99 213.36) (xy 49.53 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03df6ad3-22cb-452e-926d-d087bafbe932")
 	)
 	(wire
 		(pts
@@ -7083,16 +7196,6 @@
 		)
 		(uuid "098b5f9a-edf9-4100-9830-5af8bfc258a7")
 	)
-	(wire
-		(pts
-			(xy 46.99 243.84) (xy 49.53 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0abcd29d-18b3-4635-ade1-490e96ad1c36")
-	)
 	(polyline
 		(pts
 			(xy 12.7 149.86) (xy 140.97 149.86)
@@ -7135,7 +7238,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 213.36) (xy 41.91 213.36)
+			(xy 38.1 213.36) (xy 48.26 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7192,16 +7295,6 @@
 			(type default)
 		)
 		(uuid "15b50133-da9b-4e4e-b168-3d56d564b4aa")
-	)
-	(wire
-		(pts
-			(xy 49.53 243.84) (xy 59.69 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d13e62-6fc1-40d9-81e6-aedf51a6d8bf")
 	)
 	(polyline
 		(pts
@@ -7352,6 +7445,16 @@
 			(type default)
 		)
 		(uuid "28041da8-9127-49ef-8dc2-4505326d147c")
+	)
+	(wire
+		(pts
+			(xy 53.34 243.84) (xy 59.69 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291065a7-f3ca-4bc1-92a2-16933f9b0f1a")
 	)
 	(wire
 		(pts
@@ -7555,7 +7658,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 243.84) (xy 41.91 243.84)
+			(xy 38.1 243.84) (xy 48.26 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7645,7 +7748,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 213.36) (xy 49.53 215.9)
+			(xy 48.26 213.36) (xy 48.26 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7695,7 +7798,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 243.84) (xy 49.53 246.38)
+			(xy 48.26 243.84) (xy 48.26 246.38)
 		)
 		(stroke
 			(width 0)
@@ -7963,6 +8066,16 @@
 		)
 		(uuid "7c70f3dc-6966-404a-8607-b41113325f50")
 	)
+	(wire
+		(pts
+			(xy 53.34 213.36) (xy 59.69 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7c2f8e-659d-478f-9f6a-f2750debcdae")
+	)
 	(polyline
 		(pts
 			(xy 166.37 149.86) (xy 166.37 195.58)
@@ -8002,16 +8115,6 @@
 			(type default)
 		)
 		(uuid "8682ea7d-9e24-4822-9702-1e6069665059")
-	)
-	(wire
-		(pts
-			(xy 49.53 213.36) (xy 59.69 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dc41e18-7825-4e25-b02c-a7852f0956b2")
 	)
 	(wire
 		(pts
@@ -13942,35 +14045,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 49.53 223.52 90)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 16.51 99.06 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08ffb9dd-9ddd-45dc-9ec4-c019118e381e")
-		(property "Reference" "D5"
-			(at 52.07 222.1865 90)
+		(uuid "081e3faf-0cd8-4f66-b6d7-088c8be652a6")
+		(property "Reference" "H1"
+			(at 19.05 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 52.07 224.7265 90)
+		(property "Value" "MountingHole_Pad"
+			(at 19.05 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 49.53 223.52 90)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 16.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13979,7 +14082,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 223.52 90)
+			(at 16.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 16.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aeeee88-95ce-4dfa-8fb7-c96f42286027")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 48.26 223.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08ffb9dd-9ddd-45dc-9ec4-c019118e381e")
+		(property "Reference" "D5"
+			(at 50.8 222.1865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 224.7265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 48.26 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13988,7 +14158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 223.52 0)
+			(at 48.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,7 +14166,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 49.53 223.52 0)
+			(at 48.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,7 +14175,7 @@
 			)
 		)
 		(property "Part #" "Generic Red 0603 LED"
-			(at 49.53 223.52 0)
+			(at 48.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15137,7 +15307,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 44.45 213.36 180)
+		(at 50.8 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15145,7 +15315,7 @@
 		(dnp no)
 		(uuid "228dada0-110f-4f11-9ae3-ef194f4d294e")
 		(property "Reference" "D1"
-			(at 44.45 208.28 0)
+			(at 50.8 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,7 +15323,7 @@
 			)
 		)
 		(property "Value" "SDT8A100P5-7"
-			(at 44.45 210.82 0)
+			(at 50.8 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15161,7 +15331,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-5"
-			(at 44.45 213.36 90)
+			(at 50.8 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15170,7 +15340,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SDT8A100P5.pdf"
-			(at 44.45 213.36 90)
+			(at 50.8 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15179,7 +15349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 213.36 0)
+			(at 50.8 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15187,7 +15357,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes"
-			(at 44.45 213.36 0)
+			(at 50.8 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,7 +15366,7 @@
 			)
 		)
 		(property "Part #" "SDT8A100P5-7"
-			(at 44.45 213.36 0)
+			(at 50.8 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17925,7 +18095,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 256.54 0)
+		(at 48.26 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17933,7 +18103,7 @@
 		(dnp no)
 		(uuid "7152f5d5-4c7e-4458-b3d8-a549c2dbd8c0")
 		(property "Reference" "#PWR012"
-			(at 49.53 262.89 0)
+			(at 48.26 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17942,7 +18112,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 260.35 0)
+			(at 48.26 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17950,7 +18120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 256.54 0)
+			(at 48.26 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17959,7 +18129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 256.54 0)
+			(at 48.26 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17968,7 +18138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 256.54 0)
+			(at 48.26 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18626,6 +18796,73 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 16.51 128.27 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b8d4b35-ec96-4826-95ba-76afa91463f8")
+		(property "Reference" "H3"
+			(at 19.05 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 19.05 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 16.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 16.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aed8d53-6c5b-49ac-bc0e-c0f98dfd1a6d")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -19305,6 +19542,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 16.51 113.03 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8702f98e-82c2-4b78-a17c-68682b0fb2bd")
+		(property "Reference" "H2"
+			(at 19.05 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 19.05 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 16.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 16.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffbaa46f-9857-4d35-b31d-f301cf9f3e45")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput")
 		(at 160.02 262.89 0)
 		(unit 1)
@@ -19393,7 +19697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 226.06 0)
+		(at 48.26 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19401,7 +19705,7 @@
 		(dnp no)
 		(uuid "88703770-86ae-48f6-bc9b-e3710088eb81")
 		(property "Reference" "#PWR044"
-			(at 49.53 232.41 0)
+			(at 48.26 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19410,7 +19714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 229.87 0)
+			(at 48.26 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19418,7 +19722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 226.06 0)
+			(at 48.26 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19427,7 +19731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 226.06 0)
+			(at 48.26 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19436,7 +19740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 226.06 0)
+			(at 48.26 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21110,7 +21414,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 49.53 248.92 180)
+		(at 48.26 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21119,7 +21423,7 @@
 		(fields_autoplaced yes)
 		(uuid "b44ed61a-5b85-4a30-872f-0a758928fa79")
 		(property "Reference" "R8"
-			(at 52.07 247.65 0)
+			(at 50.8 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21128,7 +21432,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 52.07 250.19 0)
+			(at 50.8 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21137,7 +21441,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.53 248.92 0)
+			(at 48.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21146,7 +21450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 248.92 0)
+			(at 48.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21155,7 +21459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 248.92 0)
+			(at 48.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21163,7 +21467,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 49.53 248.92 0)
+			(at 48.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21172,7 +21476,7 @@
 			)
 		)
 		(property "Part #" "Generic 3.3K 1% 0402 Resistor"
-			(at 49.53 248.92 0)
+			(at 48.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21641,6 +21945,73 @@
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
 					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 16.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c557400f-c703-4344-92b4-2623b426f113")
+		(property "Reference" "H4"
+			(at 19.05 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 19.05 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 16.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 16.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9db721cc-bd30-4552-b7bc-df560652e6e3")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -22687,7 +23058,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 49.53 218.44 180)
+		(at 48.26 218.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22696,7 +23067,7 @@
 		(fields_autoplaced yes)
 		(uuid "db785bfa-700c-40fd-b759-f2420226bef4")
 		(property "Reference" "R10"
-			(at 52.07 217.17 0)
+			(at 50.8 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22705,7 +23076,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 52.07 219.71 0)
+			(at 50.8 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22714,7 +23085,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.53 218.44 0)
+			(at 48.26 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22723,7 +23094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 218.44 0)
+			(at 48.26 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22732,7 +23103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 218.44 0)
+			(at 48.26 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22740,7 +23111,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 49.53 218.44 0)
+			(at 48.26 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22749,7 +23120,7 @@
 			)
 		)
 		(property "Part #" "Generic 3.3K 1% 0402 Resistor"
-			(at 49.53 218.44 0)
+			(at 48.26 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23479,7 +23850,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 49.53 254 90)
+		(at 48.26 254 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23488,7 +23859,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0bb5733-a2a7-4bef-8cb1-3fb60ff5651b")
 		(property "Reference" "D6"
-			(at 52.07 252.6665 90)
+			(at 50.8 252.6665 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23497,7 +23868,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 52.07 255.2065 90)
+			(at 50.8 255.2065 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23506,7 +23877,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 49.53 254 90)
+			(at 48.26 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23515,7 +23886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 254 90)
+			(at 48.26 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23524,7 +23895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 254 0)
+			(at 48.26 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23532,7 +23903,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 49.53 254 0)
+			(at 48.26 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23541,7 +23912,7 @@
 			)
 		)
 		(property "Part #" "Generic Red 0603 LED"
-			(at 49.53 254 0)
+			(at 48.26 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23694,7 +24065,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 44.45 243.84 180)
+		(at 50.8 243.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23702,7 +24073,7 @@
 		(dnp no)
 		(uuid "f80b818d-7156-4f2a-814e-8e8fc486a932")
 		(property "Reference" "D4"
-			(at 44.45 238.76 0)
+			(at 50.8 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23710,7 +24081,7 @@
 			)
 		)
 		(property "Value" "SDT8A100P5-7"
-			(at 44.45 241.3 0)
+			(at 50.8 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23718,7 +24089,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-5"
-			(at 44.45 243.84 90)
+			(at 50.8 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23727,7 +24098,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SDT8A100P5.pdf"
-			(at 44.45 243.84 90)
+			(at 50.8 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23736,7 +24107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 243.84 0)
+			(at 50.8 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23744,7 +24115,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes"
-			(at 44.45 243.84 0)
+			(at 50.8 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23753,7 +24124,7 @@
 			)
 		)
 		(property "Part #" "SDT8A100P5-7"
-			(at 44.45 243.84 0)
+			(at 50.8 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
