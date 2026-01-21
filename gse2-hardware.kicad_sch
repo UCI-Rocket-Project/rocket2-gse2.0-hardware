@@ -8038,7 +8038,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 48.26) (xy 290.83 48.26)
+			(xy 283.21 82.55) (xy 287.02 82.55)
 		)
 		(stroke
 			(width 0)
@@ -12466,6 +12466,16 @@
 		)
 		(uuid "14432321-329a-4fd9-ac7b-6434f6b239d3")
 	)
+	(label "LC0_AI+"
+		(at 247.65 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14875ae5-e1da-4efe-b1d1-3f95390553b9")
+	)
 	(label "SOLENOID0_FB"
 		(at 326.39 101.6 0)
 		(effects
@@ -12606,16 +12616,6 @@
 		)
 		(uuid "2f5870a0-1fb3-4bf5-9549-f23c8614a3b7")
 	)
-	(label "LC0_AI-"
-		(at 247.65 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "303b0f1c-011d-4dfe-9991-57d9dc6435ee")
-	)
 	(label "MCU_SWCLK"
 		(at 189.23 77.47 0)
 		(effects
@@ -12655,6 +12655,16 @@
 			(justify right bottom)
 		)
 		(uuid "39c51096-98b7-4709-83e2-8144acecc13a")
+	)
+	(label "LC0_AI-"
+		(at 260.35 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cd51d7a-d0d3-4b7b-81ad-8adeaf80e264")
 	)
 	(label "EMATCH1_FIRE"
 		(at 55.88 116.84 180)
@@ -12706,6 +12716,16 @@
 		)
 		(uuid "4dc60bae-416b-46df-9645-5037795582b4")
 	)
+	(label "LC1_AI-"
+		(at 260.35 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51747531-6311-4123-8982-d1d3bfb30eb8")
+	)
 	(label "SOLENOID4_EN"
 		(at 101.6 74.93 0)
 		(effects
@@ -12737,7 +12757,7 @@
 		(uuid "59660fe3-1c7b-461c-9164-a007364beb5e")
 	)
 	(label "NDQ_AI_GND"
-		(at 290.83 48.26 0)
+		(at 287.02 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12816,6 +12836,16 @@
 		)
 		(uuid "63cfd649-0edd-43f2-8c59-2e9490b59473")
 	)
+	(label "LC1_AI+"
+		(at 247.65 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "651a89a4-b17c-4930-b891-73ee02bdd1e4")
+	)
 	(label "TC_SCK"
 		(at 358.14 24.13 180)
 		(effects
@@ -12866,16 +12896,6 @@
 		)
 		(uuid "72c67d57-2181-4e9b-bfa4-58fea010f437")
 	)
-	(label "LC1_AI-"
-		(at 247.65 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74b07fdb-35b0-481e-8c07-79472948ebf5")
-	)
 	(label "SOLENOID5_FB"
 		(at 55.88 57.15 180)
 		(effects
@@ -12916,16 +12936,6 @@
 		)
 		(uuid "7c3482ab-ca8a-44fb-95ee-614d2bbcb3e5")
 	)
-	(label "LC0_AI+"
-		(at 260.35 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80b55d58-a87d-4a06-ab8c-ce8d26998c6a")
-	)
 	(label "PT0_read"
 		(at 26.67 161.29 0)
 		(effects
@@ -12945,16 +12955,6 @@
 			(justify left bottom)
 		)
 		(uuid "8b50ac7b-4a14-47b9-8f73-234cb1f4af74")
-	)
-	(label "LC1_AI+"
-		(at 260.35 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bf123fb-76bd-4c07-b39f-dd49d757f565")
 	)
 	(label "PT0_read"
 		(at 260.35 55.88 0)
@@ -15692,7 +15692,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 287.02 48.26 0)
+		(at 283.21 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15700,7 +15700,7 @@
 		(dnp no)
 		(uuid "24f7c39f-fcf1-4801-84a1-442a597b9544")
 		(property "Reference" "#PWR03"
-			(at 287.02 54.61 0)
+			(at 283.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15709,7 +15709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 52.07 0)
+			(at 283.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15717,7 +15717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 48.26 0)
+			(at 283.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +15726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 48.26 0)
+			(at 283.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,7 +15735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 48.26 0)
+			(at 283.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
