@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -600,12 +600,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part #",
+          "name": "Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -759,32 +795,68 @@
       "PT11"
     ],
     [
-      "35a9b011-2c33-41b2-9de4-3159b5f57394",
-      "LoadCell0"
+      "bbd1f9c2-41a9-4d87-bcf9-61e538da6258",
+      "Loadcell1"
     ],
     [
-      "baf95957-6e2e-4ec4-89f5-09a92f2c8dee",
-      "LoadCell1"
+      "c98df245-20c2-40a1-91db-7b18ec03b5b8",
+      "STM_PT0"
     ],
     [
-      "49c9c6d1-c766-4a15-8c23-ec8c2cd74e9d",
-      "Volt-Sense4"
+      "53b928bf-4650-400b-bbe3-eea119efc7f7",
+      "STM_PT1"
     ],
     [
-      "243e7ef2-3d1b-47c4-9f99-7492be586247",
-      "Volt-Sense1"
+      "9bab9e4a-0f85-4ac3-93bf-35b5059f2558",
+      "Solenoid9"
     ],
     [
-      "3ee7605e-1827-49f4-9069-e6dc2d01bdcd",
-      "Volt-Sense0"
+      "9eba34e1-73af-40a8-b4f4-efdef3765dbf",
+      "Solenoid10"
     ],
     [
-      "65708f58-f753-44fb-8269-02151455b286",
-      "Volt-Sense2"
+      "8faec381-efed-4161-9a08-35e3fd5c0a09",
+      "STM_PT2"
     ],
     [
-      "179256ac-7877-4975-a152-3d323b33d6db",
-      "Volt-Sense3"
+      "ad5925b8-3b26-4573-9aff-bf71e13d934b",
+      "STM_PT3"
+    ],
+    [
+      "6a790b71-0e47-418e-8465-2a6b0c14e96f",
+      "STM_PT4"
+    ],
+    [
+      "bbb3b5f6-72fd-4749-86fd-146cc0cd361a",
+      "STM_PT5"
+    ],
+    [
+      "96f1c35f-9bb3-48ef-98b8-d74514190a08",
+      "Solenoid11"
+    ],
+    [
+      "969989c3-e477-4b51-a488-3bb8a7d92857",
+      "PT12"
+    ],
+    [
+      "670f09a3-65df-4b44-85b4-c0ad0ab171f4",
+      "PT13"
+    ],
+    [
+      "2fe13bef-73c1-4e16-ae42-c92f73f4444c",
+      "Loadcell0"
+    ],
+    [
+      "100123e4-6f6c-43fe-8f4d-8f6f2d72bac2",
+      "PT14"
+    ],
+    [
+      "226cfccc-2730-4212-9a96-e1ca6c7e656e",
+      "STM_PT6"
+    ],
+    [
+      "d5690d1a-53de-40a1-9e1a-57efeee546cc",
+      "STM_PT7"
     ]
   ],
   "text_variables": {}

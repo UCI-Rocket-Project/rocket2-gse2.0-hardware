@@ -5,6 +5,250 @@
 	(uuid "6039cd8c-b8c2-4c0b-af5c-e22a9f240d81")
 	(paper "A4")
 	(lib_symbols
+		(symbol "+3.3V_1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "+3.3V_2"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -530,6 +774,202 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_2"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1307,7 +1747,7 @@
 		)
 		(uuid "79315d7a-4420-4fac-b042-f486b0bc2d9a")
 	)
-	(hierarchical_label "POCI"
+	(hierarchical_label "MISO"
 		(shape output)
 		(at 160.02 125.73 0)
 		(effects
@@ -1319,6 +1759,7 @@
 		(uuid "a890ac7b-25a5-4fcf-b9f2-b2e565ff2333")
 	)
 	(symbol
+		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 170.18 115.57 0)
 		(unit 1)
@@ -1327,7 +1768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "246358de-e53a-42a2-96e8-9868acd36669")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0183"
 			(at 170.18 119.38 0)
 			(effects
 				(font
@@ -1377,15 +1818,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0136")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0299")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0210")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -1485,6 +1926,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 119.38 124.46 90)
 		(unit 1)
@@ -1494,7 +1936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9c6c79-6296-468b-9a3b-a77fdedfdb05")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0178"
 			(at 125.73 124.46 0)
 			(effects
 				(font
@@ -1545,15 +1987,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0131")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0293")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0137")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -1568,7 +2010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55c446d8-31c2-471b-9fdd-9df863152780")
-		(property "Reference" "R111"
+		(property "Reference" "R65"
 			(at 172.72 116.84 0)
 			(effects
 				(font
@@ -1640,15 +2082,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "R111")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "R117")
+					(reference "R71")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "R114")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -1664,7 +2106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6244ee85-5ca8-467b-8e1e-fe909b873cd1")
-		(property "Reference" "U13"
+		(property "Reference" "U18"
 			(at 149.86 111.76 0)
 			(effects
 				(font
@@ -1672,12 +2114,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MAX31855JASA+"
 			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -1750,15 +2193,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "U13")
+					(reference "U18")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "U19")
+					(reference "U20")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "U14")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -1773,7 +2216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "789469b1-7ca7-48a3-bfd0-41202a63d83f")
-		(property "Reference" "C22"
+		(property "Reference" "C38"
 			(at 113.03 123.19 0)
 			(effects
 				(font
@@ -1845,15 +2288,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "C22")
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "C65")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "C32")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -1869,7 +2312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "831eb3ff-a9b2-4937-8dbd-11f27a2de58d")
-		(property "Reference" "R109"
+		(property "Reference" "R63"
 			(at 105.41 106.68 90)
 			(effects
 				(font
@@ -1930,15 +2373,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "R109")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "R115")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "R112")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -1953,7 +2396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a856dd4f-3a88-4780-8e22-39f7e7b93a63")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0182"
 			(at 149.86 109.22 0)
 			(effects
 				(font
@@ -2003,15 +2446,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0135")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0298")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0209")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -2026,7 +2469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab80d37e-2d65-4a55-8be3-3b60217b701a")
-		(property "Reference" "C25"
+		(property "Reference" "C41"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -2098,15 +2541,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "C25")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "C68")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "C64")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -2121,7 +2564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4004f36-9ac6-4586-942b-12ffae6a7895")
-		(property "Reference" "C23"
+		(property "Reference" "C39"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -2193,15 +2636,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "C23")
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "C66")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "C33")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -2216,7 +2659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bca669cb-6ab0-43cd-85a6-7e999e0c36ac")
-		(property "Reference" "C24"
+		(property "Reference" "C40"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -2288,15 +2731,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "C24")
+					(reference "C40")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "C67")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "C63")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -2312,7 +2755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dadc671d-f8b3-4d4d-9edd-b547f4aaa21f")
-		(property "Reference" "R110"
+		(property "Reference" "R64"
 			(at 105.41 128.27 90)
 			(effects
 				(font
@@ -2373,15 +2816,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "R110")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "R116")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "R113")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -2397,7 +2840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41e5007-b5b5-4dd4-a5ab-fd1ecdae5758")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0179"
 			(at 143.51 120.65 0)
 			(effects
 				(font
@@ -2448,21 +2891,22 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0132")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0294")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0138")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_2")
 		(lib_id "power:+3.3V")
 		(at 149.86 97.79 0)
 		(unit 1)
@@ -2471,7 +2915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebac2227-5f76-40f2-bf64-5b9a38951565")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0181"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -2521,21 +2965,22 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0134")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0296")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0208")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 139.7 128.27 270)
 		(unit 1)
@@ -2545,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1b8bbad-c463-4535-b7bb-50cce7242081")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0180"
 			(at 133.35 128.27 0)
 			(effects
 				(font
@@ -2596,15 +3041,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0133")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0295")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0207")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
