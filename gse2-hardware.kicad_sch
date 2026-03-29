@@ -16863,16 +16863,6 @@
 		)
 		(uuid "093060e6-fc8d-4684-9c45-dcc410cb9375")
 	)
-	(label "STM_PT2_read"
-		(at 302.26 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "094ca66b-33b8-405b-81ab-ec7e1009c2ad")
-	)
 	(label "TC_SCK"
 		(at 55.88 121.92 180)
 		(effects
@@ -17043,6 +17033,16 @@
 		)
 		(uuid "209c2790-01ce-4eb7-8312-b6fb1ab87c74")
 	)
+	(label "STM_PT5_read"
+		(at 274.32 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20a64b8f-4302-4581-a6f0-3d0e92e318e7")
+	)
 	(label "NI_PT9_read"
 		(at 52.07 180.34 0)
 		(effects
@@ -17082,6 +17082,16 @@
 			(justify right bottom)
 		)
 		(uuid "29f60f90-c4ac-40b9-a186-bccf53a85ce9")
+	)
+	(label "D+"
+		(at 176.53 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f532494-2ebf-4343-8c71-fb937fd9f1da")
 	)
 	(label "USB_D+"
 		(at 55.88 85.09 180)
@@ -17152,16 +17162,6 @@
 			(justify right bottom)
 		)
 		(uuid "364ddc89-6958-47df-8e80-b43e9bb035f1")
-	)
-	(label "STM_PT3_read"
-		(at 330.2 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36b9057f-38b5-44d5-9caa-fb1c7152e59b")
 	)
 	(label "NI_PT3_read"
 		(at 104.14 161.29 0)
@@ -17332,16 +17332,6 @@
 			(justify right bottom)
 		)
 		(uuid "4fcb9ea4-88cc-47fa-bc45-407b96239218")
-	)
-	(label "STM_PT1_read"
-		(at 274.32 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "510d846e-ee49-474a-98fb-6efb5d82c242")
 	)
 	(label "TC2_~{CS}"
 		(at 55.88 92.71 180)
@@ -17823,6 +17813,16 @@
 		)
 		(uuid "a4a0941d-eecf-4f57-b59a-639d247e05cc")
 	)
+	(label "STM_PT7_read"
+		(at 330.2 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8258769-f841-4ac4-a0b5-c4e9090d54e2")
+	)
 	(label "SOLENOID5_EN"
 		(at 101.6 67.31 0)
 		(effects
@@ -17852,6 +17852,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab7dd1f6-2b21-4374-b4e4-ca90744c0c6b")
+	)
+	(label "D-"
+		(at 176.53 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ade7fd53-7ce2-48f9-b92b-dc684fe0ed7c")
 	)
 	(label "ARMED"
 		(at 101.6 92.71 0)
@@ -18153,16 +18163,6 @@
 		)
 		(uuid "e3a1b06a-25f1-445c-8aa3-add1c61f9633")
 	)
-	(label "STM_PT0_read"
-		(at 246.38 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e51bafdd-7ec7-43b0-8eea-979fb02c01aa")
-	)
 	(label "PWR1"
 		(at 101.6 57.15 0)
 		(effects
@@ -18233,6 +18233,16 @@
 		)
 		(uuid "ec843a4f-9f7f-41da-bf28-6a3d9136c5e2")
 	)
+	(label "STM_PT6_read"
+		(at 302.26 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec927347-0474-40a9-8e0b-1d993f36ede4")
+	)
 	(label "ETH_CTS"
 		(at 151.13 132.08 180)
 		(effects
@@ -18262,6 +18272,16 @@
 			(justify left bottom)
 		)
 		(uuid "f22d7016-9c5e-4526-a392-8ce81440df70")
+	)
+	(label "STM_PT4_read"
+		(at 246.38 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f23a8db2-bd2c-4fb7-b391-ea8ace9595a4")
 	)
 	(label "SOLENOID9_EN"
 		(at 55.88 127 180)
@@ -23001,7 +23021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80k"
+		(property "Value" "82k"
 			(at 137.922 234.95 0)
 			(effects
 				(font
