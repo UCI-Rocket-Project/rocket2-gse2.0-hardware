@@ -249,6 +249,467 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0UCIRP-KiCAD-Lib:TC_ADC MAX31855JASA+"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX31855JASA+"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31855.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Analog Devices"
+				(at 0.762 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part #" "MAX31855JASA+"
+				(at 0.508 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TC_ADC MAX31855JASA+_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TC_ADC MAX31855JASA+_1_1"
+				(pin power_in line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "T-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "T+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -3.81 0)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 3.81 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 1.27 180)
+					(length 3.81)
+					(name "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 10.16 -1.27 180)
+					(length 3.81)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 10.16 -3.81 180)
+					(length 3.81)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0UCIRP-KiCAD-Lib:TC_Connector AM-K-PCB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TC"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AM-K-PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "0UCIRP-KiCAD-Lib:TC_Connector AM-K-PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/partdetail/Labfacility-AM_K_PCB_PACK_OF_10/C27123691"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector AM-K-PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC_Connector AM-K-PCB_0_1"
+				(polyline
+					(pts
+						(xy -5.334 -6.096) (xy -5.588 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 -5.588) (xy -5.08 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.318 -5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -5.08) (xy -4.572 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -4.572) (xy -4.064 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -4.064) (xy -3.556 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -3.556) (xy -3.048 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -3.048) (xy -2.54 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.54) (xy -2.032 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -1.524 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.62) (xy -1.778 -7.62) (xy -5.588 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TC_Connector AM-K-PCB_1_1"
+				(pin passive line
+					(at 1.27 -2.54 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -527,263 +988,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermocouple"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TC"
-				(at -3.048 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermocouple"
-				(at -5.08 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -14.605 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -14.605 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thermocouple"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermocouple temperature sensor cold junction"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PIN?ARRAY* bornier* *Terminal?Block* Thermo*Couple*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermocouple_0_1"
-				(polyline
-					(pts
-						(xy -4.064 -1.016) (xy -4.318 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 -0.508) (xy -3.81 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.048 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 0) (xy -3.302 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy -2.794 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 1.016) (xy -2.286 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 1.524) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.032) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -0.254 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -2.54) (xy -0.508 -2.54) (xy -4.318 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermocouple_1_1"
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_names
@@ -963,355 +1167,6 @@
 					(length 0)
 					(hide yes)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "UCIRP-KiCAD-Lib:MAX31855"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31855.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Analog Devices"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part #" "MAX31855"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MAX31855_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MAX31855_1_1"
-				(pin power_in line
-					(at -10.16 3.81 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 1.27 0)
-					(length 3.81)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -1.27 0)
-					(length 3.81)
-					(name "T+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -3.81 0)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 3.81 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 1.27 180)
-					(length 3.81)
-					(name "SO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 10.16 -1.27 180)
-					(length 3.81)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at 10.16 -3.81 180)
-					(length 3.81)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1768,7 +1623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "246358de-e53a-42a2-96e8-9868acd36669")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0272"
 			(at 170.18 119.38 0)
 			(effects
 				(font
@@ -1818,108 +1673,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0183")
+					(reference "#PWR0272")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0195")
+					(reference "#PWR0284")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0189")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermocouple")
-		(at 95.25 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bcd4850-39b8-4fc7-989a-c6012093f4d7")
-		(property "Reference" "TC1"
-			(at 82.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Thermocouple"
-			(at 82.55 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0UCIRP-KiCAD-Lib:AM-K-PCB"
-			(at 80.645 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4071246.pdf"
-			(at 80.645 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Labfacility"
-			(at 95.25 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "AM-K-PCB"
-			(at 95.25 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0c6adff-2390-471e-9737-d33c0ff124c7")
-		)
-		(pin "2"
-			(uuid "4b61ef46-9129-4a8c-a24c-50e0accd4572")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "TC1")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "TC3")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "TC2")
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -1936,7 +1698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9c6c79-6296-468b-9a3b-a77fdedfdb05")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0269"
 			(at 125.73 124.46 0)
 			(effects
 				(font
@@ -1987,15 +1749,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0178")
+					(reference "#PWR0269")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0190")
+					(reference "#PWR0281")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0184")
+					(reference "#PWR0275")
 					(unit 1)
 				)
 			)
@@ -2091,117 +1853,6 @@
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
 					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UCIRP-KiCAD-Lib:MAX31855")
-		(at 149.86 124.46 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6244ee85-5ca8-467b-8e1e-fe909b873cd1")
-		(property "Reference" "U18"
-			(at 149.86 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX31855JASA+"
-			(at 149.86 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 149.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31855.pdf"
-			(at 149.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Analog Devices"
-			(at 149.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part #" "MAX31855JASA+"
-			(at 149.86 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a694bf8-b9c7-4956-8bf2-2e2924ffc725")
-		)
-		(pin "2"
-			(uuid "eb4500e2-f05a-4d49-b495-b5c8d45bbde6")
-		)
-		(pin "3"
-			(uuid "bd5049d9-6f6b-4fe4-b7b5-370f502d551a")
-		)
-		(pin "4"
-			(uuid "6ff5c9d0-386d-460b-ad1a-cab3a361ed88")
-		)
-		(pin "5"
-			(uuid "04d726fb-f387-46f2-9a1e-1674664ce5d3")
-		)
-		(pin "6"
-			(uuid "38bff7b2-c67b-4e90-8239-a2f3be25055a")
-		)
-		(pin "7"
-			(uuid "69332b82-8735-4f96-a07c-087bce94e811")
-		)
-		(pin "8"
-			(uuid "a4d9424b-0e27-4525-b407-a1ace67dd148")
-		)
-		(instances
-			(project "gse2-hardware"
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "U18")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "U20")
-					(unit 1)
-				)
-				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -2396,7 +2047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a856dd4f-3a88-4780-8e22-39f7e7b93a63")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0273"
 			(at 149.86 109.22 0)
 			(effects
 				(font
@@ -2446,15 +2097,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0182")
+					(reference "#PWR0273")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0194")
+					(reference "#PWR0285")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0188")
+					(reference "#PWR0279")
 					(unit 1)
 				)
 			)
@@ -2550,6 +2201,119 @@
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0UCIRP-KiCAD-Lib:TC_ADC MAX31855JASA+")
+		(at 149.86 124.46 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c15017-8db4-436e-8a2d-ebeb1b9c3e31")
+		(property "Reference" "U18"
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX31855JASA+"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31855.pdf"
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 150.622 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAX31855JASA+"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "5e2ce310-f7fa-4f38-9444-96a416add64d")
+		)
+		(pin "6"
+			(uuid "6d735956-404f-4688-ba19-7646d114a050")
+		)
+		(pin "1"
+			(uuid "7640c1ca-5dfb-4eb9-9592-9fba638eaf40")
+		)
+		(pin "7"
+			(uuid "f2c6a5f5-f8e4-4275-b6cb-6201f5e63260")
+		)
+		(pin "2"
+			(uuid "9f9bf5dc-8380-4815-92c7-901213a2cbfb")
+		)
+		(pin "8"
+			(uuid "edc9a475-fca7-4604-8d27-27c973db3307")
+		)
+		(pin "4"
+			(uuid "8a3a8168-4b3e-427d-bb3e-3ffce352e374")
+		)
+		(pin "3"
+			(uuid "7592100a-ee39-4c85-9e47-875be6954ffc")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -2746,6 +2510,82 @@
 		)
 	)
 	(symbol
+		(lib_id "0UCIRP-KiCAD-Lib:TC_Connector AM-K-PCB")
+		(at 96.52 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d99f8147-bf7d-49a0-b392-9b16db392f8c")
+		(property "Reference" "TC1"
+			(at 93.218 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM-K-PCB"
+			(at 93.218 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0UCIRP-KiCAD-Lib:TC_Connector AM-K-PCB"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Labfacility-AM_K_PCB_PACK_OF_10/C27123691"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector AM-K-PCB"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b003cc71-95e1-4012-8c3d-55370cb286e6")
+		)
+		(pin "2"
+			(uuid "5ddb972c-b403-45f6-ad4d-a72c9ad744e8")
+		)
+		(instances
+			(project "gse2-hardware"
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
+					(reference "TC1")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
+					(reference "TC3")
+					(unit 1)
+				)
+				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
+					(reference "TC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 105.41 134.62 90)
 		(unit 1)
@@ -2831,6 +2671,7 @@
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 139.7 120.65 90)
 		(unit 1)
@@ -2840,7 +2681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41e5007-b5b5-4dd4-a5ab-fd1ecdae5758")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0270"
 			(at 143.51 120.65 0)
 			(effects
 				(font
@@ -2891,15 +2732,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0179")
+					(reference "#PWR0270")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0191")
+					(reference "#PWR0282")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0185")
+					(reference "#PWR0276")
 					(unit 1)
 				)
 			)
@@ -2915,7 +2756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebac2227-5f76-40f2-bf64-5b9a38951565")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0274"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -2965,15 +2806,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0181")
+					(reference "#PWR0274")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0193")
+					(reference "#PWR0286")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0187")
+					(reference "#PWR0280")
 					(unit 1)
 				)
 			)
@@ -2990,7 +2831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1b8bbad-c463-4535-b7bb-50cce7242081")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0271"
 			(at 133.35 128.27 0)
 			(effects
 				(font
@@ -3041,15 +2882,15 @@
 		(instances
 			(project "gse2-hardware"
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/1100e4d4-33fd-47fc-9f59-96795f9d855c"
-					(reference "#PWR0180")
+					(reference "#PWR0271")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/35c5bb72-f929-48f0-b004-62aa4fd1a0f8"
-					(reference "#PWR0192")
+					(reference "#PWR0283")
 					(unit 1)
 				)
 				(path "/1eb2a3ff-e0fd-4343-8dba-716780a4d459/f315ae7e-24bb-4336-b1c5-213291358db7"
-					(reference "#PWR0186")
+					(reference "#PWR0277")
 					(unit 1)
 				)
 			)
