@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "DSUB_15pin/VGA Veritical  Female"
+			(property "Value" "DSUB_15pin/VGA Vertical  Female"
 				(at 0.254 -1.27 0)
 				(effects
 					(font
