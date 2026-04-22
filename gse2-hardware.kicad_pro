@@ -537,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -833,12 +833,12 @@
       "STM_PT3"
     ],
     [
-      "6a790b71-0e47-418e-8465-2a6b0c14e96f",
-      "STM_PT4"
+      "705a1474-8429-4fc6-a0a2-0c41b0d47165",
+      "Loadcell2"
     ],
     [
-      "bbb3b5f6-72fd-4749-86fd-146cc0cd361a",
-      "STM_PT5"
+      "0d999330-5cf5-4ea6-b706-2dc18c334aef",
+      "Loadcell3"
     ],
     [
       "96f1c35f-9bb3-48ef-98b8-d74514190a08",
@@ -861,12 +861,12 @@
       "PT14"
     ],
     [
-      "226cfccc-2730-4212-9a96-e1ca6c7e656e",
-      "STM_PT6"
+      "84a9789b-a577-465a-af55-f0b8a3db0b9d",
+      "Loadcell4"
     ],
     [
-      "d5690d1a-53de-40a1-9e1a-57efeee546cc",
-      "STM_PT7"
+      "a3d22674-5586-49af-be42-7d704dec97f5",
+      "Loadcell5"
     ]
   ],
   "text_variables": {}
