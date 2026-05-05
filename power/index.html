@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Power - GSE Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">GSE Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Power</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../sensing/" class="nav-link">Sensing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../compute/" class="nav-link">Compute</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../communications.md" class="nav-link">Communications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../actuation/" class="nav-link">Actuation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../sensing/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#voltage-regulation" class="nav-link">Voltage Regulation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#hardware-specifications" class="nav-link">Hardware Specifications</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#power-input" class="nav-link">Power Input</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#synchronous-buck-regulator-logic-level" class="nav-link">Synchronous Buck Regulator: Logic Level</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#low-dropout-ldo-regulators-20v-10v-5v" class="nav-link">Low Dropout (LDO) Regulators: 20V, 10V, 5V</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="voltage-regulation">Voltage Regulation</h1>
+<h1 id="overview">Overview</h1>
+<p>The GSE takes in a 24V supply via barrel jack, which is stepped down via a buck regulator or one of multiple LDOs.</p>
+<h1 id="hardware-specifications">Hardware Specifications</h1>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Input Voltage</th>
+<th>Output Voltage</th>
+<th>Output Current</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://jlcpcb.com/partdetail/Monolithic_PowerSystems-MP2338GTLZ/C7210174">Buck regulator (U5)</a></td>
+<td>24V nominal</td>
+<td>3.3V</td>
+<td>3A</td>
+</tr>
+<tr>
+<td><a href="https://jlcpcb.com/partdetail/DiodesIncorporated-AS78L05RTRE1/C90471">LDO regulator (U2)</a></td>
+<td>24V nominal</td>
+<td>5V</td>
+<td>100 mA</td>
+</tr>
+<tr>
+<td><a href="https://jlcpcb.com/partdetail/TexasInstruments-UA78M10CKVURG3/C2868719">LDO regulator (U6)</a></td>
+<td>24V nominal</td>
+<td>10V</td>
+<td>500 mA</td>
+</tr>
+<tr>
+<td><a href="https://jlcpcb.com/partdetail/ROHMSemicon-BA78M20FPE2/C5336616s">LDO regulator (U7)</a></td>
+<td>24V nominal</td>
+<td>20V</td>
+<td>500 mA</td>
+</tr>
+</tbody>
+</table>
+<h2 id="power-input">Power Input</h2>
+<p><img alt="Power Jacks" src="../assets/power-jacks.png" /></p>
+<p>24V DC Power is accepted via two barrel jacks intended for redundant use, with only one input used at a time. Supplies the 24V power rail.</p>
+<p>Each input is monitored by a voltage divider (R4 &amp; R5, and R6 &amp; R7), which feeds into the PWR0 and PWR1 GPIO pins for power detection.</p>
+<p>Schottsky diodes (100V, 8A) are used to prevent current backflow between supplies. </p>
+<p>LED indicators (D1 &amp; D2) provide visual confirmation when input voltage is present at each jack.</p>
+<h2 id="synchronous-buck-regulator-logic-level">Synchronous Buck Regulator: Logic Level</h2>
+<p><img alt="LDO Regulators " src="../assets/LDOs.png" /></p>
+<p>A synchronous buck regulator converts the 24V power rail into the 3.3V logic level supply rail.</p>
+<p>The below table details inputs and outputs</p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Name</th>
+<th>Type</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>PG (Power Good)</td>
+<td>Digital Output</td>
+<td>Indicates when output regulation is in range</td>
+</tr>
+<tr>
+<td>2</td>
+<td>VIN</td>
+<td>Power Input</td>
+<td>Input supply voltage for the regulator</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SW</td>
+<td>Power Node</td>
+<td>Switching node connected to inductor</td>
+</tr>
+<tr>
+<td>4</td>
+<td>GND</td>
+<td>Ground</td>
+<td>System reference ground</td>
+</tr>
+<tr>
+<td>5</td>
+<td>BST (Bootstrap)</td>
+<td>Power/Control</td>
+<td>Supplies gate drive voltage for high-side MOSFET</td>
+</tr>
+<tr>
+<td>6</td>
+<td>EN (Enable)</td>
+<td>Digital Input</td>
+<td>Enables or disables regulator operation</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SS (Soft-Start)</td>
+<td>Analog</td>
+<td>Controls output voltage ramp-up timing</td>
+</tr>
+<tr>
+<td>8</td>
+<td>FB (Feedback)</td>
+<td>Analog Input</td>
+<td>Senses output voltage for regulation loop</td>
+</tr>
+</tbody>
+</table>
+<h2 id="low-dropout-ldo-regulators-20v-10v-5v">Low Dropout (LDO) Regulators: 20V, 10V, 5V</h2>
+<p><img alt="LDO Regulators " src="../assets/power-regulator-3.3v.png" /></p>
+<p>Three independent LDO regulators convert the 24V power rail into 5V, 10V, and 20V supply rails, providing isolated power domains for downstream subsystems. </p>
+<p>Input decoupling capacitors (C12, C19, C22) stabilize each LDO supply rail and minimize input ripple. Output capacitors (C15, C20, C24) are required to ensure stable operation of the regulators' internal control loops.</p>
+<p>LED indicators (D56, D55, D54) provide visual confirmation when input voltage is present at each jack.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
