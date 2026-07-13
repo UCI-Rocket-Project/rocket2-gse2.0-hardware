@@ -12,3 +12,11 @@ nav:
 
 theme:
   name: mkdocs
+  color_mode: dark
+  highlightjs: true
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
